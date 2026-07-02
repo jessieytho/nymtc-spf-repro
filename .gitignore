@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Third-party exposure source — not redistributed (user-supplied; see data/README.md)
+data/Draft_DVMT_and_Length_by_County_2016-2024_UAC_Update_1_.xlsx

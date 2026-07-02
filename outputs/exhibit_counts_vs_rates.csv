@@ -1,0 +1,4 @@
+Outcome,Raw count 2019,Raw count 2024,Naive % change (counts),Exposure-normalized rate ratio 2024/2019,95% CI
+Crashes,252030.0,201878.0,-19.899,0.868,"[0.74, 1.01]"
+Fatalities,450.0,495.0,10.0,1.195,"[1.03, 1.39]"
+Serious injuries,6059.0,6094.0,0.578,1.092,"[0.97, 1.23]"

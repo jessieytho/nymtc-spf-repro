@@ -1,0 +1,3 @@
+Specification,Multiplier,Inference,Verdict
+Count-on-count TWFE (WRONG),3.84,"slopes n.s. (t~0.7); no valid CI (analytic [-12,20]; cluster sign-flips 18%)",reconstructs retired ~3.9x; inflated ~2x by FE attenuation; not a valid estimand
+Conditional fatal-per-crash (RIGHT),1.91,"county-cluster 95% CI [1.44, 2.57] (stable, significant)",honest severity contrast; still NOT exposure-normalized risk (F10)

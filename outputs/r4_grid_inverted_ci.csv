@@ -1,0 +1,16 @@
+Outcome,Year,IRR,grid_CI_lo,grid_CI_hi,wcr_p_at_IRR1,contains_1,sig_test
+Crashes,2020,0.8352,0.7692,0.8761,0.0,False,True
+Crashes,2021,0.8952,0.7848,0.9731,0.0029,False,True
+Crashes,2022,0.8736,0.7634,0.993,0.0479,False,True
+Crashes,2023,0.859,0.7271,0.9934,0.0293,False,True
+Crashes,2024,0.8684,0.7278,1.0199,0.083,True,False
+Fatalities,2020,1.311,1.1043,1.6968,0.002,False,True
+Fatalities,2021,1.3326,1.1439,1.5799,0.0029,False,True
+Fatalities,2022,1.2814,1.0825,1.5299,0.002,False,True
+Fatalities,2023,1.1979,0.9776,1.4373,0.0889,True,False
+Fatalities,2024,1.195,1.0523,1.5544,0.0068,False,True
+Serious injuries,2020,1.1091,1.0057,1.2,0.043,False,True
+Serious injuries,2021,0.9968,0.8891,1.0922,0.9561,True,False
+Serious injuries,2022,0.9359,0.845,1.0715,0.2334,True,False
+Serious injuries,2023,1.0199,0.9294,1.143,0.6543,True,False
+Serious injuries,2024,1.0917,0.9652,1.2511,0.1357,True,False

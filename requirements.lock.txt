@@ -1,0 +1,9 @@
+# Frozen, reproducible environment for the published tables and figures.
+# These are the versions under which the test suite passes here (CPython 3.12); CI also exercises 3.11.
+# Loose lower bounds live in requirements.txt; this file is the pinned environment
+# built by the Dockerfile and exercised in CI.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+openpyxl==3.1.5
+matplotlib==3.10.8

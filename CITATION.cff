@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper and the archived release."
+title: "nymtc-spf-repro: Reproducible exposure-normalized safety-performance method for small-area crash analysis"
+abstract: >-
+  Reproducibility artifact for the paper "From Counts to Rates: A Reproducible
+  Exposure-Normalized Safety-Performance Method for Small-Area Crash Analysis."
+  A dependency-light pipeline (numpy/scipy/pandas/openpyxl/matplotlib) that
+  regenerates every table and figure from source: an SPF-offset GLM with
+  few-cluster wild-cluster-bootstrap inference, a count-on-count
+  identification diagnosis, a known-truth Monte Carlo, a national-series
+  benchmark, and an independent-region replication.
+type: software
+version: "1.0.0"
+# date-released: 2026-08-01        # set when you tag the public release
+license: MIT
+repository-code: "https://github.com/<your-username>/nymtc-spf-repro"   # set on publication
+# doi: 10.5281/zenodo.XXXXXXX      # mint via Zenodo on acceptance, then fill in
+keywords:
+  - exposure normalization
+  - safety performance functions
+  - wild cluster bootstrap
+  - reproducibility
+  - crash severity
+authors:
+  - given-names: "<First>"          # fill in for camera-ready / public release
+    family-names: "<Last>"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+preferred-citation:
+  type: conference-paper
+  title: "From Counts to Rates: A Reproducible Exposure-Normalized Safety-Performance Method for Small-Area Crash Analysis"
+  year: 2027
+  collection-title: "Transportation Research Board 2027 Annual Meeting"
+  authors:
+    - given-names: "<First>"
+      family-names: "<Last>"

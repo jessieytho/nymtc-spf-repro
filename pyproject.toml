@@ -1,0 +1,21 @@
+[project]
+name = "nymtc-spf-repro"
+version = "1.0.0"
+description = "Reproducible exposure-normalized safety-performance method for small-area crash analysis (NYMTC, 2019-2024)."
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "matplotlib>=3.7",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+# Conservative, correctness-oriented rules; lint is informational in CI.
+select = ["E9", "F63", "F7", "F82", "F401"]
