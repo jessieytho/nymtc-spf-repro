@@ -11,10 +11,10 @@ abstract: >-
   benchmark, and an independent-region replication.
 type: software
 version: "1.0.0"
-# date-released: 2026-08-01        # set when you tag the public release
+date-released: "2026-07-02"        # date the v1.0.0 release was tagged
 license: MIT
-repository-code: "https://github.com/<your-username>/nymtc-spf-repro"   # set on publication
-# doi: 10.5281/zenodo.XXXXXXX      # mint via Zenodo on acceptance, then fill in
+repository-code: "https://github.com/jessieytho/nymtc-spf-repro"
+doi: "10.5281/zenodo.21134585"                 # concept DOI (all versions; always resolves to latest)
 keywords:
   - exposure normalization
   - safety performance functions
@@ -22,14 +22,14 @@ keywords:
   - reproducibility
   - crash severity
 authors:
-  - given-names: "<First>"          # fill in for camera-ready / public release
-    family-names: "<Last>"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: "Jessie"
+    family-names: "Ho"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add if you have one (TRB encourages it)
 preferred-citation:
   type: conference-paper
   title: "From Counts to Rates: A Reproducible Exposure-Normalized Safety-Performance Method for Small-Area Crash Analysis"
   year: 2027
   collection-title: "Transportation Research Board 2027 Annual Meeting"
   authors:
-    - given-names: "<First>"
-      family-names: "<Last>"
+    - given-names: "Jessie"
+      family-names: "Ho"
