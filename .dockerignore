@@ -2,4 +2,3 @@
 .github/
 **/__pycache__/
 *.pyc
-outputs/
